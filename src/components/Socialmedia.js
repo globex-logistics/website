@@ -1,6 +1,6 @@
 import React from "react";
 import { Flex, Heading, Link, Icon } from "@chakra-ui/react";
-import { FaXTwitter, FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
+import { FaInstagram, FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
 
 const Socialmedia = ({ heading, items }) => {
   console.log(items);
@@ -16,7 +16,7 @@ const Socialmedia = ({ heading, items }) => {
       </Heading>
       <Flex gap="5">
         {items.map((item, index) => (
-          <Link to={item.url} key={index}>
+          <Link href={item.url} key={index} target="_blank">
             <Icon _hover={{ color: "#E64A2F" }} boxSize={7} as={item.icon} />
           </Link>
         ))}

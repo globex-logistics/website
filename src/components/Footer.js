@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import FooterNav from "./FooterNav";
 import Socialmedia from "./Socialmedia";
-import { FaXTwitter, FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
+import { FaInstagram, FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
 const Footer = () => {
@@ -42,15 +42,15 @@ const Footer = () => {
   const socialmedias = [
     {
       icon: FaSquareFacebook,
-      url: "#",
+      url: "https://www.facebook.com/people/Globex-Logistics-LLC/61556249677088/",
     },
     {
       icon: FaLinkedin,
-      url: "#",
+      url: "https://www.linkedin.com/company/globex-logistics-llc",
     },
     {
-      icon: FaXTwitter,
-      url: "#",
+      icon: FaInstagram,
+      url: "https://www.instagram.com/globexlogisticsllc/",
     },
   ];
 
