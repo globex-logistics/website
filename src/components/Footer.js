@@ -69,6 +69,7 @@ const Footer = () => {
         mx={{ md: "10", lg: "20" }}
         w="fit-content"
         display={{ base: "none", md: "grid" }}
+        my={5}
       >
         <FooterNav heading="COMPANY" items={CompanyItems} />
         <FooterNav heading="OUR SERVICES" items={servicesItems} />
