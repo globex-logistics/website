@@ -8,6 +8,7 @@ import QuoteScreen from "./screens/QuoteScreen";
 import AboutScreen from "./screens/AboutScreen";
 import ServiceScreen from "./screens/ServiceScreen";
 import AllServiceScreen from "./screens/AllServiceScreen";
+import ErrorScreen from "./screens/ErrorScreen";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<AboutScreen />} />
           <Route path="/service/:urlName" element={<ServiceScreen />} />
           <Route path="/services" element={<AllServiceScreen />} />
+          <Route path="*" element={<ErrorScreen />} />
         </Routes>
       </Flex>
       <Footer />
