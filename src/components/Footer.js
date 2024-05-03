@@ -50,7 +50,7 @@ const Footer = () => {
     },
     {
       icon: FaInstagram,
-      url: "https://www.instagram.com/globexlogisticsllc/",
+      url: "https://www.instagram.com/globex.logistics/",
     },
   ];
 
